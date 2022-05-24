@@ -1,0 +1,134 @@
+.about-section {
+    padding-bottom: 50px;
+}
+
+.mission-section {
+    margin-top: 100px;
+}
+
+.progress-text {
+    color: rgb(27, 62, 65);
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(220, 228, 235);
+}
+
+.percentage-width {
+    height: 25px;
+    background-color: rgb(27, 62, 65);
+}
+
+.progress-one {
+    width: 80%;
+}
+
+.progress-two {
+    width: 96%;
+}
+
+.progress-three {
+    width: 92%;
+}
+
+.history-section {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background: linear-gradient(rgb(60, 61, 49), rgb(27, 62, 65));
+}
+
+.history-title {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.history-header-title {
+    font-size: 50px;
+    color: white;
+}
+
+.history-text {
+    width: 80%;
+    font-size: 18px;
+    margin: 0 auto;
+    color: white;
+}
+
+.testimonials-section {
+    margin-bottom: 150px;
+}
+
+.testimonials-section h4 {
+    color: rgb(197, 53, 55);
+}
+
+.testimonials-section p {
+    padding: 5px 15px;
+    color: rgb(27, 62, 65);
+}
+
+@media only screen and (max-width: 576px) {
+    .mission-section {
+        margin-top: 50px;
+    }
+
+    .mission-div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mission-img {
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .history-section {
+        width: 95%;
+        margin: 100px auto;
+        padding-top: 15px;
+    }
+
+    .history-title {
+        width: 90%;
+    }
+
+    .history-text {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+
+    .testimonial-div {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .mission-section {
+        margin-top: 50px;
+    }
+
+    .mission-div {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mission-img {
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .history-section {
+        width: 90%;
+        margin: 100px auto;
+        padding-top: 15px;
+    }
+
+    .history-text {
+        padding-bottom: 50px;
+    }
+}
